@@ -1,22 +1,28 @@
 body{
     background-color: rgb(228, 233, 201);
-    font-family:Monaco, "Courier New", monospace ;
+    font-family:Monaco, "Open Sans", "Courier New", monospace ;
     color: rgb(44, 44, 114);
 }
 .r1,.r2,.r3{
     font-size: 24px;
     font-weight: bold;
+ 
 }
 h1{
-    font-family: Papyrus,fantasy;
+    font-family: "Open Sans", Papyrus,fantasy;
     font-style: oblique;
     text-align: center;
     font-size: 48px;
     font-weight: bolder;
     text-decoration-line: underline;
+    color:rgb(109, 47, 0)
 }
 h2{
     text-decoration-line: underline;
+    background-color: rgb(170, 189, 134);
+    padding: 10px;
+    color:rgb(109, 47, 0)
+    
 }
 img{
     display:block ;
@@ -28,4 +34,12 @@ p,li{
 }
 .recipe{
     background-color: #c0ebc6;
+}
+.container {
+    
+    border:10px double rgb(148, 184, 81);
+    border-radius: 30px;
+    margin-top: 40px;
+    padding: 40px;
+    background-color: beige;
 }
